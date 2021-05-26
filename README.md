@@ -1,40 +1,48 @@
 # Recipe-ist
 
-A very recipe management tool.
+A very simple recipe management tool.
 
-# Run
-The application uses expo.io, install it https://docs.expo.io/.
-
+# Start application
 ```
 $ npm start
 ```
 
 # HowTo's
+Before you start the application you have to install the libs.
 
-## Importing expo-fonts
-```
-npm install --save expo-font
-```
-Now you can import fonts into the project
-```
-import * as Font from "expo-font";
-```
+Install expo https://docs.expo.io/. And then do
 
-## Importing app-loading
-For more details go to https://docs.expo.io/versions/latest/sdk/app-loading/.
-```
-expo install expo-app-loading
-```
+´´´
+$ npm install
+$ expo upgrade 
+´´´
 
-## Importing react-navigation
-For details go to https://reactnavigation.org/docs/getting-started/.
+## Install navigators
 We are using version 4.x.
 
-```
-npm install --save react-navigation
-```
+´´´
+$ npm install --save react-navigation
+$ npm install --save react-navigation-stack
+$ npm install --save react-navigation-tabs
+$ npm install --save react-navigation-drawer
+´´´
 
 For expo users you need to install also 
 ```
 expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 ```
+
+For details go to https://reactnavigation.org/docs/getting-started/.
+
+## Install expo-fonts
+```
+npm install --save expo-font
+```
+
+## Install app-loading
+
+```
+expo install expo-app-loading
+```
+
+For more details go to https://docs.expo.io/versions/latest/sdk/app-loading/.
